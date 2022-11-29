@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk"></html>
+    <head>
+        <title>Кошель Леся Володимирівна група ІС-03 Лабораторна 5/79</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Кошель, ІС-03, Леся">
+        <meta name="description" content="Лабораторна 5">  
+        <link rel="stylesheet" href="./css/style_1.css">
+    </head>
+<body>
+    <div class="context">
+        <h2 class="text">Форма для заповнення</h2>
+        <div id='Form'>
+            <fieldset>
+                <label for='name'>ПІБ</label><br>
+                <input id='name' type='text' placeholder='Ттттт Т.Т.'><br>
+                <label for='ID'>ID-card</label><br>
+                <input id='ID' type='text' placeholder='ТТ №ЧЧЧЧЧЧ'><br>
+                <label for='faculty'>Факультет</label><br>
+                <input id='faculty' type='text' placeholder='ТТТТ'><br>
+                <label for="birthday">Дата народження</label><br>
+                <input id="birthday" type='text'placeholder='ДД.ММ.РРРР'><br>
+                <label for='Adress'>Адреса</label><br>
+                <input id='Adress' type='text' placeholder='м. Ттттт'><br>
+                <button type='button' onclick='confirm()'>Підтвердити</button>
+            </fieldset>
+        </div>
+        <br><div class="text">Введені дані</div>
+        <br><div type="Result" id="Result" class="Result"></div>
+        <br><div class="text">Вибір кольору</div>
+        <div id="Table_Gen">
+            <label for='color_tool' class="text"></label><br>
+            <input id='color_tool' type='color'>       
+        </div> 
+        <script src='./js/script_1.js'></script>
+        <script src='./js/script_2.js'></script>
+    </div>
+    <style>body { background: url(./img/img7.jpg); }</style>
+</body>
+</html>
